@@ -1,0 +1,49 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(245, 255, 254);
+}
+h1{
+    color: rgb(91, 226, 203);
+    font-size: 46px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    text-align: center;
+}
+form{
+    background-color: white;
+    border: solid 2px rgb(91, 226, 203);
+    box-shadow: -10px 10px rgb(206, 241, 235);
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    color: gray;
+}
+.campos{
+    background-color: rgb(243, 250, 249);
+    border: solid 1px rgb(91, 226, 203);
+    height: 30px;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+
+#cidadeUF, #ruaBairro, #CEP, #dddGiaSiafi{
+    display: flex;
+}
+
+#btn{
+    background-color: rgb(251, 224, 206);
+    border: solid 1px rgb(226, 145, 91);
+    border-radius: 10px;
+    margin-top: 25PX;
+    margin-left: 20PX;
+    height: 40px;
+    width: 250px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+

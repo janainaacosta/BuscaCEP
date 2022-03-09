@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CEP</title>
+</head>
+<body>
+<h1> Consulta de CEP</h1>
+    <form method="get" action="../API_CEP">
+        <div id="CEP">
+            <label for="cep">Insira o CEP aqui:
+            <input  class="campos" id="cep" size="30" maxlength="9"></label>
+        </div>
+        <div id="ruaBairro">
+            <label>Rua:
+            <input name="logradouro" type="text" class="campos" id="logradouro" size="40" /></label>
+            <label for="bairro">Bairro:
+            <input name="bairro" type="text" class="campos" id="bairro" size="19" /></label>
+        </div>
+      <div id="cidadeUF">
+            <label for="localidade">Cidade:
+            <input name="localidade" type="text" class="campos" id="localidade" size="50" /></label>
+            <label for="uf">Estado:
+            <input name="uf" type="text" class="campos" id="uf" size="9" /></label>
+        </div>
+        <div id="dddGiaSiafi">
+            <label for="ibge">IBGE:
+                <input name="ibge" type="text" class="campos" id="ibge" size="15" /></label>        
+            <label for="ddd"> DDD 
+                <input name='ddd' class="campos" id="ddd" size="4" type="text"></label>
+            <label for="gia"> GIA
+                <input name='gia' type="text" class="campos" id="gia" size="6"></label>
+            <label for="siafi">SIAFI
+                <input name="siafi" type="text" class="campos" id="siafi" size="19"></label>
+        </div>  
+      </form>
+</body>
+<script src="script.js"></script>
+</html>
